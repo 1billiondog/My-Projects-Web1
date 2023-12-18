@@ -1,0 +1,50 @@
+.flex-container {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: stretch;
+    align-items: center;
+    background-color: rgb(128, 124, 118);
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(65, 63, 61);
+}
+.flex-container > div {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(57, 55, 55);
+}
+#div1 {
+    background-color: rgb(199, 173, 223);
+    color: rgb(80, 66, 94);
+    order: initial;
+    flex-grow: 3;
+    align-self: flex-end;
+}
+#div2 {
+    background-color: rgb(157, 219, 198);
+    color: rgb(70, 94, 86);
+    flex-shrink: 4;
+    align-self: flex-start;
+}
+#div3 {
+    background-color: rgb(201, 82, 82);
+    color: rgb(65, 21, 21);
+    align-self: center;
+}
+#div4 {
+    background-color: rgb(146, 179, 241);
+    color: rgb(47, 56, 73);
+    align-self:  flex-end;
+}
+#div5 {
+    background-color: rgb(171, 232, 110);
+    color: rgb(66, 86, 46);
+    align-self: flex-start;
+}
