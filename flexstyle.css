@@ -1,3 +1,7 @@
+body{
+    background-color: grey;
+    background: rgb(129, 20, 133) rgba(148, 53, 157, 0.716) rgba(0, 0, 0, 0);
+}
 .flex-container {
     display: flex;
     flex-wrap: row wrap;
