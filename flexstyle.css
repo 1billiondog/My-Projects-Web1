@@ -1,59 +1,51 @@
+body {
+    background: rgb(255,4,202);
+    background: linear-gradient(90deg, rgba(255,4,202,1) 8%, rgba(121,9,110,1) 48%, rgba(255,86,176,1) 93%);
 
-.flex-container {
+}
+.parent1 {
     display: flex;
-    flex-wrap: row wrap;
-    justify-content: stretch;
-    align-items: center;
-    background-color: rgb(128, 124, 118);
-    height: 400px;
-}
-body{
-    background-color: grey;
-    background: rgb(129, 20, 133) rgba(148, 53, 157, 0.716) rgba(0, 0, 0, 0);
-}
-h1 {
-    text-align: center;
-    color: rgb(65, 63, 61);
-}
-.Image1 {
-    width: 600px;
-    height: 50px;
+    flex-direction: row;
 
 }
-.flex-container > div {
-    background-color: antiquewhite;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+
+#bannerimg {
+    width: 90%;
+    height: 300px;
+    justify-content: center;
+}
+
+#banner{
+    width: 100%;
+    height: 300;
+    display: flex;
+    justify-content: center;
+    size: 100%;
+
+}
+
+.parent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.img {
+    height: 200px;
+    width: 400px;
+}
+
+#division2 {
+    border-style: solid;
     text-align: center;
-    font-size: 30px;
-    color: rgb(57, 55, 55);
+    background-color: rgb(199, 18, 115);
 }
-#div1 {
-    background-color: rgb(199, 173, 223);
-    color: rgb(80, 66, 94);
-    order: initial;
-    flex-grow: 3;
-    align-self: flex-end;
-}
-#div2 {
-    background-color: rgb(157, 219, 198);
-    color: rgb(70, 94, 86);
-    flex-shrink: 4;
-    align-self: flex-start;
-}
-#div3 {
-    background-color: rgb(201, 82, 82);
-    color: rgb(65, 21, 21);
-    align-self: center;
-}
-#div4 {
-    background-color: rgb(146, 179, 241);
-    color: rgb(47, 56, 73);
-    align-self:  flex-end;
-}
-#div5 {
-    background-color: rgb(171, 232, 110);
-    color: rgb(66, 86, 46);
-    align-self: flex-star;
+
+#division3 {
+    color: white;
+
+    text-align: center;
+    width: 400px;
 }
